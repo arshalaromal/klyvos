@@ -60,7 +60,7 @@ public class Disassembler {
                     int idx = chunk.readShort(ip);
                     ip += 2;
                     Value c = chunk.getConstant(idx);
-                    System.out.printf("%5d → %s%s\n", idx, summarizeValue(c), lineInfo);
+                    System.out.printf("%5d -> %s%s\n", idx, summarizeValue(c), lineInfo);
                     break;
                 }
                 case LOAD_VAR:
@@ -68,7 +68,7 @@ public class Disassembler {
                     int slot = chunk.readShort(ip);
                     ip += 2;
                     String name = resolveLocalName(fn, slot);
-                    System.out.printf("%5d → %s%s\n", slot, name, lineInfo);
+                    System.out.printf("%5d -> %s%s\n", slot, name, lineInfo);
                     break;
                 }
 

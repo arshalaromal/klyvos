@@ -136,9 +136,9 @@ public class KlyvosCLI {
 
     private static void printHelp() {
         System.out.println("""
-                ╔══════════════════════════════════════════════╗
-                ║              Klyvos Language CLI             ║
-                ╚══════════════════════════════════════════════╝
+                +----------------------------------------------+
+                |              Klyvos Language CLI             |
+                +----------------------------------------------+
                 
                 Klyvos is a modern, lightweight programming language
                 designed for high performance, embeddability, and modular
