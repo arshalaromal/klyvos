@@ -1,0 +1,14 @@
+use "console"
+use "core"
+fn println(val){
+console.write(val)
+console.write("\n")
+}
+
+fn readLine(text=""){
+return console.read(text)
+}
+
+fn isNumber(num){
+return core.isNumber(num)
+}

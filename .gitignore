@@ -33,6 +33,4 @@ build/
 .DS_Store
 
 ###other####
-*.klvb
-*.klvs
-*.exe
+ignore/
