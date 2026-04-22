@@ -161,8 +161,8 @@ public class KlyvosCLI {
                   klyvos -h | --help          Show this help information
                 
                 Notes:
-                - `.klvs` → Klyvos source code
-                - `.klvb` → Compiled bytecode format
+                - `.klvs` -> Klyvos source code
+                - `.klvb` -> Compiled bytecode format
                 
                 Examples:
                   klyvos compile myscript.klvs
