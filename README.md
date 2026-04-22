@@ -204,6 +204,16 @@ klyvos dis output.klvb
 * `modules/` — module registry
 * `error/` — compile and runtime errors
 
+## Runtime requirement
+
+Klyvos requires a `stdlib` directory at runtime.
+
+When running the executable or CLI, place the `stdlib` folder in the same directory as the program:
+
+```text
+klyvos.exe
+stdlib/
+```
 ## Build
 
 ```bash
