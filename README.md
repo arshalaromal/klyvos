@@ -1,3 +1,4 @@
+![](logo.png "KLYVOS")
 # Klyvos
 
 Klyvos is a programming language built in Java with a custom compiler, bytecode format, and stack-based virtual machine.
