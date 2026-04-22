@@ -189,14 +189,6 @@ public class Disassembler {
         }
     }
 
-    /**
-     * Read big-endian short from code list starting at ip.
-     */
-    private static int readShort(Chunk chunk, int ip) {
-        int hi = Byte.toUnsignedInt(chunk.getCode(ip));
-        int lo = Byte.toUnsignedInt(chunk.getCode(ip + 1));
-        return (hi << 8) | lo;
-    }
 
     /**
      * Summarize a constant Value for display.
