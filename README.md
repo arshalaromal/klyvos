@@ -208,7 +208,7 @@ klyvos dis output.klvb
 
 Klyvos requires a `stdlib` directory at runtime.
 
-When running the executable or CLI, place the `stdlib` folder in the same directory as the program:
+When running the executable or CLI, place the [`stdlib`](stdlib) folder in the same directory as the program:
 
 ```text
 klyvos.exe
